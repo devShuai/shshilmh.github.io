@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.shuaisome.com/2016/02/21/%E8%A7%A3%E5%86%B3requestFeature()-must-be-called-before-adding-content%E9%97%AE%E9%A2%98/</loc>
+    
+    <lastmod>2016-02-21T15:36:15.613Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.shuaisome.com/2016/02/21/hello-world/</loc>
     
     <lastmod>2016-02-21T04:48:00.565Z</lastmod>
