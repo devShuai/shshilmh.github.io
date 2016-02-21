@@ -1,40 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>Some thing must say.</title>
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2016-02-21T03:57:32.529Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://shshilmh.github.io/"/>
+  <updated>2016-02-21T03:40:24.649Z</updated>
+  <id>http://shshilmh.github.io/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Shuai Shao</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>nihao</title>
-    <link href="http://yoursite.com/2016/02/21/nihao/"/>
-    <id>http://yoursite.com/2016/02/21/nihao/</id>
-    <published>2016-02-21T03:57:32.000Z</published>
-    <updated>2016-02-21T03:57:32.529Z</updated>
-    
-    <content type="html"></content>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2016/02/21/hello-world/"/>
-    <id>http://yoursite.com/2016/02/21/hello-world/</id>
+    <link href="http://shshilmh.github.io/2016/02/21/hello-world/"/>
+    <id>http://shshilmh.github.io/2016/02/21/hello-world/</id>
     <published>2016-02-21T03:40:24.649Z</published>
     <updated>2016-02-21T03:40:24.649Z</updated>
     
