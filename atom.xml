@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.shuaisome.com/"/>
-  <updated>2016-02-21T15:36:15.613Z</updated>
+  <updated>2016-02-21T15:37:25.605Z</updated>
   <id>http://blog.shuaisome.com/</id>
   
   <author>
@@ -19,10 +19,11 @@
     <title>解决requestFeature() must be called before adding content问题</title>
     <link href="http://blog.shuaisome.com/2016/02/21/%E8%A7%A3%E5%86%B3requestFeature()-must-be-called-before-adding-content%E9%97%AE%E9%A2%98/"/>
     <id>http://blog.shuaisome.com/2016/02/21/解决requestFeature()-must-be-called-before-adding-content问题/</id>
-    <published>2016-02-21T15:36:15.617Z</published>
-    <updated>2016-02-21T15:36:15.613Z</updated>
+    <published>2016-02-21T15:37:25.609Z</published>
+    <updated>2016-02-21T15:37:25.605Z</updated>
     
     <content type="html">&lt;h4 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h4&gt;&lt;p&gt;在编译运行android开发网站的教程，activity的生命周期的教程中遇到如下问题&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h4 id=&quot;解决方法&quot;&gt;&lt;a href=&quot;#解决方法&quot; class=&quot;headerlink&quot; title=&quot;解决方法&quot;&gt;&lt;/a&gt;解决方法&lt;/h4&gt;&lt;p&gt;将activity_dialog中的如下代码&lt;/p&gt;
 &lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;protected&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;onCreate&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(Bundle savedInstanceState)&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;super&lt;/span&gt;.onCreate(savedInstanceState);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    requestWindowFeature(Window.FEATURE_NO_TITLE);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    setContentView(R.layout.activity_dialog);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;改为如下代码&lt;/p&gt;
@@ -32,7 +33,6 @@
     <summary type="html">
     
       &lt;h4 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h4&gt;&lt;p&gt;在编译运行android开发网站的教程，activity的生命周期的教程中遇到如下问题&lt;/p&gt;
-&lt;h4 id=&quot;解决方法&quot;&gt;
     
     </summary>
     
