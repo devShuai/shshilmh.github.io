@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.shuaisome.com/2016/02/22/test-image-post/</loc>
+    
+    <lastmod>2016-02-22T15:13:26.489Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.shuaisome.com/2016/02/21/%E8%A7%A3%E5%86%B3requestFeature()-must-be-called-before-adding-content%E9%97%AE%E9%A2%98/</loc>
     
     <lastmod>2016-02-21T15:42:22.241Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://blog.shuaisome.com/2016/02/21/hello-world/</loc>
     
     <lastmod>2016-02-21T04:48:00.565Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.shuaisome.com/2016/02/21/nihao/</loc>
-    
-    <lastmod>2016-02-21T03:57:32.529Z</lastmod>
     
   </url>
   
